@@ -12,7 +12,7 @@ function setPosition(element, ratio = 0.01) {
     element.style.position = "fixed";
     element.style.right = `${rightMargin}px`;
     element.style.bottom = `${bottomMargin}px`;
-}
+}  
 
 // Show plant
 function updatePlant() {

@@ -25,7 +25,7 @@ chrome.runtime.onInstalled.addListener(async () => {
     }
     if (!data.plantType) {
         await chrome.storage.local.set({ plantType: "plant1" });
-    }
+    }  
 });
 
 // * Set reminders based on user-defined frequency

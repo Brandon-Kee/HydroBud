@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const plantImageElement = document.getElementById("plantImage");
         plantImageElement.src = plantImages[currentIndex];
         plantImageElement.alt = `Plant ${currentIndex + 1}`;
-    }
+    }  
 
     // Function to check if the Start Watering button should be enabled
     function checkStartWateringButton() {

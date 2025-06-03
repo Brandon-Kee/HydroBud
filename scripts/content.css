@@ -1,0 +1,111 @@
+/* plant1*/
+.plant.plant1.pot {
+    background-image: url('images/pot.png');
+}
+
+.plant.plant1.sprout1 {
+    background-image: url('images/sprout1.png');
+}
+
+.plant.plant1.sprout2 {
+    background-image: url('images/sprout2.png');
+}
+
+.plant.plant1.flower1 {
+
+    background-image: url('images/S1_flower1.png');
+}
+
+.plant.plant1.flower2 {
+    background-image: url('images/S1_flower2.png');
+}
+
+.plant.plant1.flower3 {
+    background-image: url('images/S1_flower3.png');
+}
+
+/* plant2*/
+.plant.plant2.pot {
+    background-image: url('images/pot.png');
+}
+
+.plant.plant2.sprout1 {
+    background-image: url('images/sprout1.png');
+}
+
+.plant.plant2.sprout2 {
+    background-image: url('images/sprout2.png');
+}
+
+.plant.plant2.flower1 {
+    background-image: url('images/S1_flower1.png');
+}
+
+.plant.plant2.flower2 {
+    background-image: url('images/S1_flower2.png');
+}
+
+.plant.plant2.flower3 {
+    background-image: url('images/S1_flower3.png');
+}
+
+/* plant3*/
+
+.plant.plant3.pot {
+    background-image: url('images/pot.png');
+}
+
+.plant.plant3.sprout1 {
+    background-image: url('images/sprout1.png');
+}
+
+.plant.plant3.sprout2 {
+    background-image: url('images/sprout2.png');
+}
+
+.plant.plant3.flower1 {
+    background-image: url('images/S1_flower1.png');
+}
+
+.plant.plant3.flower2 {
+    background-image: url('images/S1_flower2.png');
+}
+
+.plant.plant3.flower3 {
+    background-image: url('images/S1_flower3.png');
+}
+
+/*plant4*/
+.plant.plant4.pot {
+    background-image: url('images/pot.png');
+}
+
+.plant.plant4.sprout1 {
+    background-image: url('images/sprout1.png');
+}
+
+.plant.plant4.sprout2 {
+    background-image: url('images/sprout2.png');
+}
+
+.plant.plant4.flower1 {
+    background-image: url('images/S1_flower1.png');
+}
+
+.plant.plant4.flower2 {
+    background-image: url('images/S1_flower2.png');
+}
+
+.plant.plant4.flower3 {
+    background-image: url('images/S1_flower3.png');
+}
+
+.plant {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transition: transform 0.5s ease;
+    /* For aggressive mode scaling */
+}

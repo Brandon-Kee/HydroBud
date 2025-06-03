@@ -1,0 +1,60 @@
+{
+    "manifest_version": 3,
+    "name": "HydroBud",
+    "description": "A virtual plant that keeps you healthy",
+    "background": {
+      "service_worker": "scripts/background.js"
+    },
+    "version": "1.0",
+      "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      },
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": [
+          "scripts/content.js"
+        ],
+        "css": [
+          "scripts/content.css"
+        ],
+        "run_at": "document_start",
+        "all_frames": false
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "images/*"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "tabs",
+      "storage",
+      "alarms"
+    ],
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl + B"
+        },
+        "description": "Opens the extension popup"
+      }
+    }
+  }

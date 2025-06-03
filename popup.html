@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+
+
+    <style>
+        .carousel-button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            outline: none;
+            /* Removes focus outline */
+        }
+
+        .carousel-button img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .carousel-button:focus {
+            outline: none;
+            /* Ensures no outline appears on focus */
+        }
+    </style>
+
+    <script src="scripts/popup.js"></script>
+
+</head>
+
+<body>
+    <div class="container" id="mainContainer">
+
+        <div class="title" style="padding-top: 10px; margin-left: 0px; margin-bottom: 0px;">HydroBud</div>
+
+        <!-- Carousel Section -->
+        <div class="carousel">
+            <!-- Previous Button -->
+            <button class="carousel-button prev" id="prevButton">
+                <img src="images/Left_Arrow.png" alt="Previous">
+            </button>
+
+            <!-- Main Plant Image -->
+
+            <img id="plantImage" src="images/seed1.png" alt="seed" class="plant-image">
+
+
+
+
+            <!-- Next Button -->
+            <button class="carousel-button next" id="nextButton">
+                <img src="images/Right_Arrow.png" alt="Next">
+            </button>
+        </div>
+
+        <!-- Select Button -->
+        <div class="input-container">
+            <button class="btn2" id="selectPlantButton">Select Seed</button>
+
+            <!-- Timer Section -->
+            <div class="input-group">
+                <input type="number" id="minutesInput" placeholder="Minutes" min="1">
+                <!--   <button class="timer-button" id="startTimerButton">Set Interval Time</button> -->
+
+                <span>min</span>
+            </div>
+
+            <!-- Water goal section -->
+            <div class="input-group">
+
+                <input type="number" id="mLInput" placeholder="Enter Amount">
+                <!--    <button class="water-button" id="waterGoalDay">Set Water Goal</button> -->
+                <span>mL</span>
+            </div>
+            <br>
+            <div id="errorMessage" style="color: red; display: none;"></div>
+            <!-- Select Button -->
+
+            <button class="btn" id="startWatering" disabled>Start Watering</button>
+
+        </div>
+    </div>
+
+    <!-- New Popup for Start Watering -->
+    <div class="container" id="wateringPopup" style="display: none;">
+        <div class="title" style="margin-left: 20px;">Watering In Progress</div>
+        <p>Your watering session has begun. Make sure to monitor your plants!</p>
+        <div class="hydration-info">
+            <p>Time Remaining: <span id="timeRemaining">0</span> min</p>
+            <p>Total Water Drank: <span id="totalWaterDrank">0</span> ml</p>
+            <p><span id="waterGoal"></span></p>
+        </div>
+       
+        <button class="btn2" id="quitSessionButton">End Session</button>
+
+    </div>
+
+</body>
+
+</html>

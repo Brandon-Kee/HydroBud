@@ -1,4 +1,4 @@
-# HydroBud
+# HydroBud 💧
 
 Collaborators: <a href="https://github.com/paulatwang" target="_blank">Paula Wang</a>, <a href="https://github.com/melodyhashemi" target="_blank">Melody Hashemi</a>, <a href="https://github.com/annielouu" target="_blank">Annie Lou</a>  
 

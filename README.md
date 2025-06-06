@@ -11,5 +11,3 @@ HydroBud is your friendly plant companion designed to help you stay hydrated and
 3. Enable developer mode, then load the unpacked extension
 4. Now you're ready to hydrate and watch your plant grow!
 
-#### Presentation 
-https://vimeo.com/1050524286?share=copy

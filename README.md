@@ -7,7 +7,7 @@ HydroBud is your friendly plant companion designed to help you stay hydrated and
 
 #### Installation 
 1. Run `git clone https://github.com/Brandon-Kee/HydroBud.git`
-2. Go to chrome://extensions/
-3. Enable developer mode, then load the unpacked extension
+2. Go to `chrome://extensions/` and enable Developer Mode
+3. Select `Load Unpacked` then choose the folder the repo was cloned to
 4. Now you're ready to hydrate and watch your plant grow!
 

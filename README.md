@@ -1,6 +1,6 @@
 # 🌱 HydroBud - Your Friendly Hydration Companion
 
-Collaborators: <a href="https://github.com/paulatwang" target="_blank">Paula Wang</a>, <a href="https://github.com/melodyhashemi" target="_blank">Melody Hashemi</a>, <a href="https://github.com/annielouu" target="_blank">Annie Lou</a>  
+**Collaborators:** <a href="https://github.com/paulatwang" target="_blank">Paula Wang</a>, <a href="https://github.com/melodyhashemi" target="_blank">Melody Hashemi</a>, <a href="https://github.com/annielouu" target="_blank">Annie Lou</a>  
 
 **HydroBud** is your friendly on-screen plant buddy that grows as *you* stay hydrated. Designed to make drinking water more fun and rewarding, HydroBud mirrors your hydration habits in real time. Set your daily water goal, pick your plant seed, and watch your buddy flourish every time you take a sip. 🌸
 

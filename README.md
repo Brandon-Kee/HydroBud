@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/35666a2e-617d-479c-8f43-74af149444f3
 
 4. Click `Load Unpacked` and select the extension's folder
 
-5. Set your hydration goal, choose your plant, and you’re all set!
+5. Set your hydration goal, choose your plant, and water away!
 
 ---
 ## 🛠️ Built With

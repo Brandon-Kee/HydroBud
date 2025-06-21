@@ -54,7 +54,13 @@ https://github.com/user-attachments/assets/35666a2e-617d-479c-8f43-74af149444f3
 
 5. Set your hydration goal, choose your plant, and you’re all set!
 
-
+---
+## 🛠️ Built With
+- JavaScript
+- HTML
+- CSS
+- Chrome Storage API
+- Chrome Alarms API
 
 
 

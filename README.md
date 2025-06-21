@@ -46,11 +46,11 @@ https://github.com/user-attachments/assets/35666a2e-617d-479c-8f43-74af149444f3
 ## 📦 Installation
 1. Clone or download this repository
 
-2. Go to chrome://extensions/ in your browser
+2. Go to `chrome://extensions/` in your browser
 
 3. Enable Developer Mode (top right)
 
-4. Click Load Unpacked and select the extension's folder
+4. Click `Load Unpacked` and select the extension's folder
 
 5. Set your hydration goal, choose your plant, and you’re all set!
 
